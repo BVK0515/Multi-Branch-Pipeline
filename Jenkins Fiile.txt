@@ -1,14 +1,14 @@
 pipeline {
 agent any
 stages {
-stage('Devlopment-1') {
+stage('Devlopment-21') {
 steps {
 sh 'echo "This is Dev branch"'
 }
 }
 stage('sprint12') {
 steps {
-sh 'echo "This is Sprint1 branch"'
+sh 'echo "This is Sprint21 branch"'
 }
 }
 stage ("Development") {
