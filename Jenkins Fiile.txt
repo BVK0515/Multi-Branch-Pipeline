@@ -1,7 +1,11 @@
 pipeline {
 agent any
 stages {
+<<<<<<< HEAD
 stage('Hotfix-1') {
+=======
+stage('Master=65') {
+>>>>>>> b031c8f (main-changes)
 steps {
 sh 'echo "This is Dev branch"'
 }
