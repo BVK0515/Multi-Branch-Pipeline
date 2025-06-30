@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Hotfix-1') { // or use 'Master=65' if that's correct
+        stage('Hotfix-1') {
             steps {
                 sh 'echo "This is Dev branch"'
             }
@@ -20,4 +20,4 @@ pipeline {
         }
     }
 }
-}
+
