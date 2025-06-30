@@ -1,7 +1,11 @@
 pipeline {
     agent any
     stages {
+<<<<<<< HEAD
         stage('Hotfix-1') {
+=======
+        stage('Hotfix-1') { // or use 'Master=65' if that's correct
+>>>>>>> f89b430 (text)
             steps {
                 sh 'echo "This is Dev branch"'
             }
@@ -20,4 +24,8 @@ pipeline {
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> f89b430 (text)
